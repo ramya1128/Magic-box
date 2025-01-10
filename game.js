@@ -1,32 +1,3 @@
-/*var randomnumber = Math.floor(Math.random() * 100) + 1;
-var attempts =25;
-var boxcount=0;
-document.getElementById('btn').addEventListener('click', function () {
-    var guess = parseInt(document.getElementById('guessinput').value);
-    for(i=0;i<attempts;i++){
-        if (guess === randomnumber) {
-            boxcount++;
-            lock.src='open2.jpg';
-            display("Congrats! You opened the box "+boxcount);
-            document.getElementById('guessInput')="";
-            lock.src='close.jpg';
-        } else if (guess < randomnumber) {
-            display("Your number is too low, try again!");
-        } else {
-            display("Your number is too high, try again!");
-        }
-    }
-    attempts--;
-    if(attempts==0){
-        display('Game Over! try  again');
-    } 
-    if(boxcount==5){
-        display("Congrats! you win");
-    }  
-});
-function display(msg) {
-    document.getElementById('msg').textContent = msg; 
-}*/
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 let attempts = 30;
 let boxcount = 0;
